@@ -1,0 +1,53 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Build files
+build/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Private ticket datasets and generated reports
+data/raw/*
+data/processed/*
+data/database/*
+data/outputs/*
+data/collective_*
+
+# Keep empty data folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/database/.gitkeep
+!data/outputs/.gitkeep
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
